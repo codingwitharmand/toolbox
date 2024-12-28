@@ -17,7 +17,7 @@
 
 ### 1. Clone the Repository
 ```shell script
-git clone https://github.com/your-username/toolbox-api.git
+git clone https://github.com/codingwitharmand/toolbox-api.git
 cd toolbox-api
 ```
 
