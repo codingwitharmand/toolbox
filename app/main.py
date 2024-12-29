@@ -1,15 +1,15 @@
 import os
 import uvicorn
 from fastapi import FastAPI
-from app.routers import mp3
+from app.routers import youtube
 
 app  = FastAPI(
-    title="Youtube to MP3 Converter",
-    description="A simple API to convert YouTube videos to MP3.",
+    title="Toolbox API",
+    description="A toolbox for various utilities.",
     version="1.0.0"
 )
 
-app.include_router(mp3.router)
+app.include_router(youtube.router)
 
 @app.on_event("startup")
 def setup_folders():
